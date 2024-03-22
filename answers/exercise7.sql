@@ -1,3 +1,6 @@
+'''ALTERING TABLES
+'''Delete the column Birthday from the Users table.
+
 mysql> ALTER TABLE Users
     -> DROP COLUMN Birthday;
 Query OK, 0 rows affected (0.01 sec)

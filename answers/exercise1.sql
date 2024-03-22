@@ -1,3 +1,6 @@
+'''CREATING DATABASES
+'''Write the correct SQL statement to create a new database called myNewDB.'''
+
 mysql> CREATE SCHEMA myNewDB;
 Query OK, 1 row affected (0.03 sec)
 

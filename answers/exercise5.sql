@@ -1,3 +1,6 @@
+'''DELETING TABLES
+'''Use the TRUNCATE statement to delete all data inside the Users table.
+
 mysql> TRUNCATE TABLE Users;
 Query OK, 0 rows affected (0.02 sec)
 
@@ -12,4 +15,3 @@ mysql> DESCRIBE USERS;
 | City      | varchar(255) | YES  |     | NULL    |       |
 +-----------+--------------+------+-----+---------+-------+
 5 rows in set (0.02 sec)
-

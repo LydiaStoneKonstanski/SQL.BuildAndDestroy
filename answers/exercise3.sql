@@ -1,3 +1,8 @@
+'''CREATING TABLES
+'''Write the correct SQL statement to create a new table called Users,
+'''with an int field called UserID, and the following varchar fields of size 255:
+'''LastName, FirstName, Address, City
+
 mysql> CREATE TABLE Users (
     ->     UserID INTEGER,
     ->     LastName varchar (255),

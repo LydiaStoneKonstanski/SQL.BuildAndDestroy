@@ -1,3 +1,6 @@
+'''ALTERING TABLES
+'''Add a column of type DATE called Birthday to the Users table.
+
 mysql> ALTER TABLE Users
     -> ADD Birthday DATE;
 Query OK, 0 rows affected (0.05 sec)
