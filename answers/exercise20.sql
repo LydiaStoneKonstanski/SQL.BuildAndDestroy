@@ -1,33 +1,9 @@
-CREATE TABLE Users (
-    UserID INTEGER,
-    LastName varchar (255),
-    FirstName varchar (255),
-    Address varchar (255),
-    City varchar (255)
-    );
-
-CREATE TABLE Students(
-    StudentName varchar(225),
-    Address varchar(225),
-    City varchar(225),
-    PostalCode varchar(225),
-    Country varchar(225)
-    );
+'''DELETE RECORDS
+'''Delete all the records from the Students table.
 
 
- INSERT INTO Students (
-     StudentName,
-     Address,
-     City,
-     PostalCode,
-     Country)
- VALUES ('Jane Doe', '57 Union St', 'Glasgow', 'G13RB', 'Scotland');
+mysql> DELETE FROM Students;
+Query OK, 3 rows affected (0.00 sec)
 
-
-SELECT * FROM Students
-    WHERE City IN(Philadelphia, Trenton);
-
-
-SELECT DISTINCT City
-    FROM Students
-    ORDER BY City;
+mysql> SELECT * FROM Students;
+Empty set (0.00 sec)
